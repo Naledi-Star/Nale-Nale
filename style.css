@@ -5,6 +5,7 @@
     list-style: none;
     text-decoration: none;
     color: rgb(24, 24, 24);
+    font-family: 'Poppins',sans-serif;
     
 }
 
@@ -29,7 +30,7 @@ ul{
 }
 
 li{
-    padding: 40px 70px;
+    padding: 40px 60px;
     font-size: 22px;
     color: black;
     transition: all 0.4s;
@@ -62,13 +63,20 @@ nav img{
 }
 
 #home img{
-    width: 200;
-    height: 350px;
-    margin: 0 150px;
-    
+    /* width: 400px;
+    height: 550px; */
+    margin: 0 50px;
+    /* filter: blur(1px); */
+    filter: brightness(80%);
     
     
 }
+
+/* #image{
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+} */
 
 #home-content{
     margin-left: 0 50px; 
@@ -108,7 +116,7 @@ button{
 .navitem h2{
     margin: auto;
     height: 100px;
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
     text-align: center;
     border-top: 1px solid black;
@@ -130,12 +138,20 @@ button{
     width: 50%;
     font-size: 20px;
 }
+
+.last-element{
+    padding-bottom: 15px;
+}
+
+.about-box:nth-child(9){
+    padding-bottom: 15px;
+}
 .about-box h3{
     /* text-decoration: underline; */
     text-align: center;
     padding-bottom: 10px;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .about-box .about-text{
@@ -143,8 +159,62 @@ button{
     margin-bottom: 10px;
 }
 
+.big-text{
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+    /* padding-bottom: 15px; */
+}
 
+.duration{
+    font-style: italic;
+    padding-bottom: 15px;
+}
 
+.skills-box{
+    padding-top: 30px;
+    display: flex;
+}
 
+.skills-item img{
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.skills-item{
+    width: 50%;
+}
 
+form{
+    display: flex;
+    flex-direction: column;
+    /* padding: 2vw 4vw;*/
+    /* width: 90%; */
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 80px 350px;
+    padding: 50px;
+    font-size: 23px;
+}
+
+form h3{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    font-size: 23px;
+    padding-bottom: 50px;
+}
+
+form input, textarea{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+form button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
