@@ -1,21 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
     color: rgb(24, 24, 24);
-    font-family: 'Poppins',sans-serif;
-    
+    font-family: 'Poppins', sans-serif;
+
 }
 
-body{
+body {
     border: 1px solid black;
 }
 
-
-
-nav{
+nav {
     display: flex;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -23,53 +21,46 @@ nav{
 
 }
 
-ul{
+ul {
     display: flex;
     color: black;
-    
+
 }
 
-li{
+li {
     padding: 40px 60px;
     font-size: 22px;
     color: black;
     transition: all 0.4s;
 }
 
-li:hover{
+li:hover {
     transform: scale(1.3);
     color: rgb(127, 125, 125);
 }
-    
-}
 
-li a:hover{
+li a:hover {
     color: rgb(127, 125, 125);
 }
 
-nav img{
+nav img {
     height: 100px;
     width: 150px
 }
 
-#home{
+#home {
     display: flex;
     width: 100%;
-    height:600px;
+    height: 600px;
     margin-top: 70px;
-    
-
-
 }
 
-#home img{
+#home img {
     /* width: 400px;
     height: 550px; */
     margin: 0 50px;
     /* filter: blur(1px); */
     filter: brightness(80%);
-    
-    
 }
 
 /* #image{
@@ -78,21 +69,21 @@ nav img{
     border-radius: 50%;
 } */
 
-#home-content{
-    margin-left: 0 50px; 
+#home-content {
+    margin-left: 0 50px;
     padding-left: 0 50px;
     text-align: center;
-    
-    
+
+
 }
 
-#home-content h1{
+#home-content h1 {
     padding-top: 30px;
     font-size: 70px;
     color: rgb(24, 24, 24);
 }
 
-#home-content h2{
+#home-content h2 {
     font-size: 50px;
     padding-top: 20px;
     /* padding-right: 50px; */
@@ -100,7 +91,7 @@ nav img{
     color: rgb(24, 24, 24);
 }
 
-button{
+button {
     border-radius: 25px;
     background-color: white;
     width: 180px;
@@ -111,9 +102,10 @@ button{
     position: relative;
     bottom: -30px;
     left: -20px;
+    cursor: pointer;
 }
 
-.navitem h2{
+.navitem h2 {
     margin: auto;
     height: 100px;
     font-size: 40px;
@@ -122,15 +114,15 @@ button{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding-top: 33px;
-    
+
 
 }
 
-#about-content{
+#about-content {
     display: flex;
 }
 
-.about-box{
+.about-box {
     margin: 30px;
     border: 1px solid black;
     border-radius: 30px;
@@ -139,14 +131,15 @@ button{
     font-size: 20px;
 }
 
-.last-element{
+.last-element {
     padding-bottom: 15px;
 }
 
-.about-box:nth-child(9){
+.about-box:nth-child(9) {
     padding-bottom: 15px;
 }
-.about-box h3{
+
+.about-box h3 {
     /* text-decoration: underline; */
     text-align: center;
     padding-bottom: 10px;
@@ -154,40 +147,40 @@ button{
     font-size: 30px;
 }
 
-.about-box .about-text{
+.about-box .about-text {
     border-bottom: 1px solid black;
     margin-bottom: 10px;
 }
 
-.big-text{
+.big-text {
     text-transform: uppercase;
     font-size: 23px;
     font-weight: bold;
     /* padding-bottom: 15px; */
 }
 
-.duration{
+.duration {
     font-style: italic;
     padding-bottom: 15px;
 }
 
-.skills-box{
+.skills-box {
     padding-top: 30px;
     display: flex;
 }
 
-.skills-item img{
+.skills-item img {
     height: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.skills-item{
+.skills-item {
     width: 50%;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     /* padding: 2vw 4vw;*/
@@ -199,7 +192,7 @@ form{
     font-size: 23px;
 }
 
-form h3{
+form h3 {
     text-transform: uppercase;
     text-align: center;
     padding: 15px;
@@ -207,13 +200,14 @@ form h3{
     padding-bottom: 50px;
 }
 
-form input, textarea{
+form input,
+textarea {
     font-size: 20px;
     margin-bottom: 20px;
     padding: 5px;
 }
 
-form button{
+form button {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;

@@ -110,7 +110,7 @@
     </div>
     <div id="contact" class="navitem">
         <h2>Contact Me</h2>
-        <form>
+        <form onsubmit="sendEmail(); reset(); return false;">
             <h3>Get in touch</h3>
             <input id="name" type="text" placeholder="Names" required>
             <input id="email" type="email" placeholder="Email" required>
@@ -122,6 +122,7 @@
 
 
     <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>
