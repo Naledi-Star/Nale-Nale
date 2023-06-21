@@ -55,12 +55,23 @@ nav img {
     margin-top: 70px;
 }
 
+#home #image{
+    border: 5px solid black;
+    padding: 25px 30px;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin-left: 60px;
+    
+}
+
+
 #home img {
     /* width: 400px;
     height: 550px; */
-    margin: 0 50px;
+    /* margin: 0 50px; */
     /* filter: blur(1px); */
-    filter: brightness(80%);
+    /* filter: brightness(80%); */
 }
 
 /* #image{
