@@ -110,19 +110,20 @@
     </div>
     <div id="contact" class="navitem">
         <h2>Contact Me</h2>
-        <form onsubmit="sendEmail(); reset(); return false;">
+        <form action="https://formsubmit.co/stargaleragwe@email.com" method="POST">
+            <input type="hidden" name="_next" value="https://naledi-star.github.io/Nale-Nale/index.html">
             <h3>Get in touch</h3>
-            <input id="name" type="text" placeholder="Names" required>
-            <input id="email" type="email" placeholder="Email" required>
-            <input id="number" type="text" placeholder="Phone Number" required>
-            <textarea name="" id="msg"   rows="8" placeholder="Message"></textarea>
-            <button type="submit">Submit</button>
+            <input id="names" name="names" type="text" placeholder="Names" required>
+            <input id="email" name="email" type="email" placeholder="Email" required>
+            <input id="number" name="number" type="text" placeholder="Phone Number">
+            <textarea name="msg"   id="msg"   rows="8" placeholder="Message"></textarea>
+            <button type="submit" name="submit-btn">Submit</button>
         </form>
     </div>
 
 
     <script src="script.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+     
 </body>
 
 </html>
