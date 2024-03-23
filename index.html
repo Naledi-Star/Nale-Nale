@@ -1,129 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+		<title>Document</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <title>Document</title>
-</head>
+	<body>
+		<div class="div-container">
+			<nav>
+				<img src="img/img2.png" alt="logo" srcset="" />
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact Me</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!-- <nav>
+			<img src="img/img2.png" alt="logo" srcset="" />
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact Me</a></li>
+			</ul>
+		</nav> -->
+		<div id="home">
+			<div id="image">
+				<img src="img/curls.png" alt="" srcset="" />
+			</div>
 
-<body>
-    <nav>
-        <img src="img/img2.png" alt="logo" srcset="">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
-    </nav>
-    <div id="home">
+			<div id="home-content">
+				<h1>Naledi Galeragwe</h1>
+				<h2>Software Developer</h2>
+				<button><a href="#about">About Me</a></button>
+			</div>
+		</div>
 
-        <div id="image">
-            <img src="img/curls.png" alt="" srcset="">
-        </div>
-        
-        <div id="home-content">
-            <h1>Naledi Galeragwe</h1>
-            <h2>Software Developer</h2>
-            <button><a href="#about">About Me</a></button>
+		<div id="about" class="navitem">
+			<h2>About me</h2>
 
-        </div>
+			<div id="about-content">
+				<div class="about-box">
+					<div class="about-text"><h3>Qualification</h3></div>
+					<p class="big-text">Bachelor of Science in Computer Science and Software Engineering</p>
+					<p>Botswana International University of Science and Technology</p>
+					<p class="duration">From Nov 2017 - Sep 2021</p>
+					<h4 class="big-text">Some of the Modules</h4>
+					<p>Programming in Java</p>
+					<p>Object oriented programming with C++</p>
+					<p>Data Structures and Algorithms</p>
+					<p>Analysis of Algorithms</p>
+					<p>Cryptography</p>
+					<p>Computer Forensics</p>
+					<p>Data Mining etc.</p>
+				</div>
+				<div class="about-box">
+					<div class="about-text"><h3>Work Experience</h3></div>
 
-    </div>
+					<p class="big-text">IT Intern</p>
+					<p>Botswana College of Engineering and Technology</p>
+					<p class="duration">From Mar 2022 - Jan 2023</p>
+					<p class="big-text">Tasks</p>
+					<p>Software installation, maintanence and troubleshooting</p>
+					<p>Hardware maintenance, replacement and troubleshooting</p>
+					<p>End-user support</p>
+					<p class="last-element">Network troubleshooting</p>
+					<p class="big-text">Software Developer Intern</p>
+					<p>BlackOak Consulting</p>
+					<p class="duration">From Jan 2023 - Sept 2023</p>
+					<p class="big-text">Tasks</p>
+					<p>Software development</p>
+					<p>Debugging</p>
+					<p>System training</p>
+					<p>System testing</p>
+				</div>
+			</div>
+		</div>
+		<div id="skills" class="navitem">
+			<h2>Skills</h2>
+			<div class="skills-box">
+				<div class="skills-item">
+					<img src="img/html5.png" alt="" />
+				</div>
+				<div class="skills-item">
+					<img src="img/css3.png" alt="" />
+				</div>
+			</div>
+			<div class="skills-box">
+				<div class="skills-item">
+					<img src="img/JavaScript-Logo.jpeg" alt="" />
+				</div>
+				<div class="skills-item">
+					<img src="img/ngjs.png" alt="" />
+				</div>
+			</div>
+		</div>
+		<div id="portfolio" class="navitem">
+			<h2>Portfolio</h2>
+		</div>
+		<div id="contact" class="navitem">
+			<h2>Contact Me</h2>
+			<form action="https://formsubmit.co/stargaleragwe@email.com" method="POST">
+				<input type="hidden" name="_next" value="https://naledi-star.github.io/Nale-Nale/index.html" />
+				<h3>Get in touch</h3>
+				<input id="names" name="names" type="text" placeholder="Names" required />
+				<input id="email" name="email" type="email" placeholder="Email" required />
+				<input id="number" name="number" type="text" placeholder="Phone Number" />
+				<textarea name="msg" id="msg" rows="8" placeholder="Message"></textarea>
+				<button type="submit" name="submit-btn">Submit</button>
+			</form>
+		</div>
 
-
-    <div id="about" class="navitem">
-
-        <h2>About me</h2>
-
-        <div id="about-content">
-            <div class="about-box">
-
-                <div class="about-text"><h3>Qualification</h3></div>
-                <p class="big-text">Bachelor of Science in Computer Science and Software Engineering</p>
-                <p>Botswana International University of Science and Technology</p>
-                <p class="duration">From Nov 2017 - Sep 2021</p>
-                <h4 class="big-text">Some of the Modules</h4>
-                <p>Programming in Java</p>
-                <p>Object oriented programming with C++</p>
-                <p>Data Structures and Algorithms</p>
-                <p>Analysis of Algorithms</p>
-                <p>Cryptography</p>
-                <p>Computer Forensics</p>
-                <p>Data Mining etc.</p>
-            </div>
-            <div class="about-box">
-                <div class="about-text"><h3>Work Experience</h3></div>
-                
-                <p class="big-text">IT Intern</p>
-                <p>Botswana College of Engineering and Technology</p>
-                <p class="duration">From Mar 2022 - Jan 2023</p>
-                <p class="big-text">Tasks</p>
-                <p>Software installation, maintanence and troubleshooting</p>
-                <p>Hardware maintenance, replacement and troubleshooting</p>
-                <p>End-user support</p>
-                <p class="last-element">Network troubleshooting</p>
-                <p class="big-text">Software Developer Intern</p>
-                <p>BlackOak Consulting</p>
-                <p class="duration">From Jan 2023 - Jul 2023</p>
-                <p class="big-text">Tasks</p>
-                <p>Software development</p>
-                <p>Debugging</p>
-                <p>System training</p>
-                <p>System testing</p>
-            </div>
-
-        </div>
-
-
-
-
-
-    </div>
-    <div id="skills" class="navitem">
-        <h2>Skills</h2>
-        <div class="skills-box">
-            <div class="skills-item">
-                <img src="img/html5.png" alt="">
-            </div>
-            <div class="skills-item">
-                <img src="img/css3.png" alt="">
-            </div>
-        </div>
-        <div class="skills-box">
-            <div class="skills-item">
-                <img src="img/JavaScript-Logo.jpeg" alt="">
-
-            </div>
-            <div class="skills-item">
-                <img src="img/ngjs.png" alt="">
-            </div>
-        </div>
-    </div>
-    <div id="portfolio" class="navitem">
-        <h2>Portfolio</h2>
-    </div>
-    <div id="contact" class="navitem">
-        <h2>Contact Me</h2>
-        <form action="https://formsubmit.co/stargaleragwe@email.com" method="POST">
-            <input type="hidden" name="_next" value="https://naledi-star.github.io/Nale-Nale/index.html">
-            <h3>Get in touch</h3>
-            <input id="names" name="names" type="text" placeholder="Names" required>
-            <input id="email" name="email" type="email" placeholder="Email" required>
-            <input id="number" name="number" type="text" placeholder="Phone Number">
-            <textarea name="msg"   id="msg"   rows="8" placeholder="Message"></textarea>
-            <button type="submit" name="submit-btn">Submit</button>
-        </form>
-    </div>
-
-
-    <script src="script.js"></script>
-     
-</body>
-
+		<script src="script.js"></script>
+	</body>
 </html>
